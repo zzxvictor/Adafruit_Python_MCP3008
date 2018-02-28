@@ -10,10 +10,10 @@ import Adafruit_MCP3008
 
 
 # Software SPI configuration:
-CLK  = 13
-MISO = 12
-MOSI = 11
-CS   = 10
+CLK  = 23
+MISO = 21
+MOSI = 19
+CS   = 24
 mcp = Adafruit_MCP3008.MCP3008(clk=CLK, cs=CS, miso=MISO, mosi=MOSI)
 
 # Hardware SPI configuration:
